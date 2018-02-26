@@ -76,6 +76,9 @@
     "react": "^15.5.x || ^16.x",
     "react-dom": "^15.5.x || ^16.x"
   },
+  "resolutions": {
+    "source-map": "~0.6.1"
+  },
   "lint-staged": {
     "{src,test}/**/*.js": [
       "prettier --print-width=120 --single-quote --trailing-comma=all --write",
